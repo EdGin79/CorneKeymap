@@ -35,10 +35,10 @@
 
             display-name = "Base";
             bindings = <
-&none  &kp SQT            &kp COMMA  &kp PERIOD  &kp P         &kp Y            &kp F      &kp G         &kp C  &kp R  &kp L               &kp BACKSPACE
-&none  &HMR LEFT_SHIFT A  &kp O      &kp E       &HMR LCTRL U  &kp I            &kp D      &HMR RCTRL H  &kp T  &kp N  &HMR RIGHT_SHIFT S  &kp QUESTION
-&none  &kp SEMICOLON      &kp Q      &kp J       &kp K         &kp X            &kp B      &kp M         &kp W  &kp V  &kp Z               &kp RETURN
-                                     &none       &mo 1         &kp BACKSPACE    &kp SPACE  &mo 2         &none
+&kp TAB       &kp SQT           &kp COMMA  &kp PERIOD  &kp P         &kp Y            &kp F      &kp G         &kp C  &kp R  &kp L               &kp BACKSPACE
+&kp LEFT_ALT  &mt LEFT_SHIFT A  &kp O      &kp E       &HMR LCTRL U  &kp I            &kp D      &HMR RCTRL H  &kp T  &kp N  &HMR RIGHT_SHIFT S  &kp QUESTION
+&none         &kp SEMICOLON     &kp Q      &kp J       &kp K         &kp X            &kp B      &kp M         &kp W  &kp V  &kp Z               &kp RETURN
+                                           &none       &mo 1         &kp BACKSPACE    &kp SPACE  &mo 2         &none
             >;
         };
 
@@ -67,10 +67,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+&kp TAB           &kp EXCL        &kp LC(C)  &kp UP_ARROW  &kp LC(V)  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N7        &kp N8           &kp N9        &none  &kp BSPC
+&kp LEFT_ALT      &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &none  &kp GRAVE
+&kp LEFT_CONTROL  &trans          &kp MINUS  &trans        &kp PLUS   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &none  &kp TILDE
+                                             &kp LGUI      &trans     &kp SPACE               &kp RET                &trans        &kp KP_NUMBER_0
             >;
         };
 
