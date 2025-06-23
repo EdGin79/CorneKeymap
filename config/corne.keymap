@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -35,14 +34,14 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp SQT           &kp COMMA  &kp PERIOD  &kp P         &kp Y            &kp F      &kp G         &kp C  &kp R  &kp L               &kp BACKSPACE
-&kp LEFT_ALT  &mt LEFT_SHIFT A  &kp O      &kp E       &HMR LCTRL U  &kp I            &kp D      &HMR RCTRL H  &kp T  &kp N  &HMR RIGHT_SHIFT S  &kp QUESTION
-&none         &kp SEMICOLON     &kp Q      &kp J       &kp K         &kp X            &kp B      &kp M         &kp W  &kp V  &kp Z               &kp RETURN
-                                           &none       &mo 1         &kp BACKSPACE    &kp SPACE  &mo 2         &none
+&kp TAB       &kp Q             &kp W  &kp F  &kp P         &kp B      &kp I      &kp L         &kp U      &kp U       &kp SEMI            &kp BACKSPACE
+&kp LEFT_ALT  &mt LEFT_SHIFT A  &kp R  &kp S  &HMR LCTRL T  &kp G      &kp M      &HMR RCTRL N  &kp E      &kp I       &HMR RIGHT_SHIFT O  &kp QUESTION
+&none         &kp X             &kp C  &kp D  &kp V         &kp Z      &kp K      &kp H         &kp COMMA  &kp PERIOD  &kp SLASH           &kp RETURN
+                                       &none  &mo 1         &kp RET    &kp SPACE  &mo 2         &none
             >;
         };
 
-        lower_layer {
+        excel {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -51,10 +50,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp DELETE      &none   &none  &none     &none   &none                   &none                  &none     &kp UP_ARROW  &none      &kp EQUAL  &kp BSPC
+&kp LEFT_SHIFT  &none   &none  &none     &none   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LEFT  &kp DOWN      &kp RIGHT  &trans     &trans
+&kp LCTRL       &trans  &kp X  &kp C     &kp V   &trans                  &none                  &trans    &trans        &trans     &trans     &trans
+                               &kp LGUI  &trans  &kp RETURN              &kp SPACE              &trans    &kp RALT
             >;
         };
 
