@@ -79,7 +79,7 @@
 &kp DELETE      &kp Q  &kp W  &kp E     &kp R   &kp T        &none                  &none     &kp UP_ARROW  &none      &kp EQUAL  &kp BSPC
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F   &kp G        &kp RIGHT_PARENTHESIS  &kp LEFT  &kp DOWN      &kp RIGHT  &trans     &trans
 &kp LCTRL       &kp Z  &kp X  &kp C     &kp V   &kp B        &none                  &trans    &trans        &trans     &trans     &kp RET
-                              &kp LGUI  &trans  &kp SPACE    &kp SPACE              &trans    &kp RALT
+                              &kp LGUI  &trans  &kp SPACE    &kp SPACE              &trans    &tog 0
             >;
         };
     };
