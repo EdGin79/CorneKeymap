@@ -34,7 +34,7 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q             &kp W  &kp F         &kp P         &kp B      &kp I      &kp L         &kp U      &kp U       &kp SEMI            &kp BACKSPACE
+&kp TAB    &kp Q             &kp W  &kp F         &kp P         &kp B      &kp J      &kp L         &kp U      &kp Y       &kp SEMI            &kp BACKSPACE
 &kp MINUS  &mt LEFT_SHIFT A  &kp R  &kp S         &HMR LCTRL T  &kp G      &kp M      &HMR RCTRL N  &kp E      &kp I       &HMR RIGHT_SHIFT O  &kp SINGLE_QUOTE
 &none      &kp X             &kp C  &kp D         &kp V         &kp Z      &kp K      &kp H         &kp COMMA  &kp PERIOD  &kp SLASH           &kp QUESTION
                                     &kp LEFT_ALT  &mo 1         &kp RET    &kp SPACE  &mo 2         &tog 3
