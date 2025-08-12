@@ -22,6 +22,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Gaming_Layer {
+            bindings = <&tog 3>;
+            key-positions = <37 40>;
+        };
+
+        Home_Layer {
+            bindings = <&tog 0>;
+            key-positions = <39 38>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -34,10 +48,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q             &kp W  &kp F         &kp P         &kp B      &kp J      &kp L         &kp U      &kp Y       &kp SEMI            &kp BACKSPACE
-&kp MINUS  &mt LEFT_SHIFT A  &kp R  &kp S         &HMR LCTRL T  &kp G      &kp M      &HMR RCTRL N  &kp E      &kp I       &HMR RIGHT_SHIFT O  &kp SINGLE_QUOTE
-&none      &kp X             &kp C  &kp D         &kp V         &kp Z      &kp K      &kp H         &kp COMMA  &kp PERIOD  &kp SLASH           &kp QUESTION
-                                    &kp LEFT_ALT  &mo 1         &kp RET    &kp SPACE  &mo 2         &tog 3
+&kp TAB           &kp Q             &kp W  &kp F         &kp P  &kp B      &kp J      &kp L  &kp U      &kp Y       &kp SEMI   &kp BACKSPACE
+&kp LSHIFT        &mt LEFT_SHIFT A  &kp R  &kp S         &kp T  &kp G      &kp M      &kp N  &kp E      &kp I       &kp O      &kp SINGLE_QUOTE
+&kp LEFT_CONTROL  &kp Z             &kp X  &kp C         &kp D  &kp V      &kp K      &kp H  &kp COMMA  &kp PERIOD  &kp SLASH  &kp QUESTION
+                                           &kp LEFT_ALT  &mo 1  &kp RET    &kp SPACE  &mo 2  &tog 3
             >;
         };
 
@@ -67,9 +81,9 @@
             display-name = "raise";
             bindings = <
 &kp TAB           &kp EXCL        &kp LC(C)  &kp UP_ARROW  &kp LC(V)  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N7        &kp N8           &kp N9        &none  &kp BSPC
-&kp LEFT_ALT      &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &none  &kp GRAVE
+&kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &none  &kp GRAVE
 &kp LEFT_CONTROL  &trans          &kp MINUS  &trans        &kp PLUS   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &none  &kp TILDE
-                                             &kp LGUI      &trans     &kp SPACE               &kp RET                &trans        &kp KP_NUMBER_0
+                                             &kp LEFT_ALT  &trans     &kp SPACE               &kp RET                &trans        &kp KP_NUMBER_0
             >;
         };
 
