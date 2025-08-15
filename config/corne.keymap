@@ -32,7 +32,7 @@
 &kp TAB           &kp Q             &kp W  &kp F         &kp P  &kp B      &kp J      &kp L  &kp U      &kp Y       &kp SEMI   &kp BACKSPACE
 &kp LSHIFT        &mt LEFT_SHIFT A  &kp R  &kp S         &kp T  &kp G      &kp M      &kp N  &kp E      &kp I       &kp O      &kp SINGLE_QUOTE
 &kp LEFT_CONTROL  &kp Z             &kp X  &kp C         &kp D  &kp V      &kp K      &kp H  &kp COMMA  &kp PERIOD  &kp SLASH  &kp QUESTION
-                                           &kp LEFT_ALT  &mo 0  &kp RET    &kp SPACE  &mo 1  &tog 2
+                                           &kp LEFT_ALT  &mo 1  &kp RET    &kp SPACE  &mo 1  &tog 2
             >;
         };
 
